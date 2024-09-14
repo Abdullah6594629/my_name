@@ -1,0 +1,19 @@
+div {
+    
+    background-color: lightgrey;
+    width: 300px;
+    border: 10px solid green;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+    margin-left: 300px;
+  }
+  .c
+  {
+    border: 2px solid black;
+    outline: #4CAF50 solid 10px;
+    margin: auto;  
+    padding: 20px;
+    text-align: center;
+  }
+  

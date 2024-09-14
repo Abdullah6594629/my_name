@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>WE ARE USING CSS </title>
+
+      <style>
+          h1
+          {
+             color: red;
+             background-color: aqua;
+             border: 3px solid red;
+             font-size: 200%;
+             font-family: 'Times New Roman', Times, serif;
+          }
+          .a
+          {
+            color:blue;
+            text-align: right;
+          }
+          #b
+          {
+            color:green;
+          }
+          #c
+          {
+            color:rgb(255, 0, 132);
+          }
+
+          .d
+          {
+            border: 2px solid green;
+             margin-top: 10%;
+             background-color: azure;
+          }
+        
+      </style>
+</head>
+<body>
+      <!-- internal styling, external styling, inline styling-->
+      <H1> THIS IS HEADING</H1>
+
+      <P class="a">In publishing and graphic design,
+         Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used 
+        as a placeholder before the final copy is available</P>
+
+        <P id="b">In publishing and graphic design,
+            Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used 
+           as a placeholder before the final copy is available</P>
+
+           <P id="c">In publishing and graphic design,
+            Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used 
+           as a placeholder before the final copy is available</P>
+
+           <div class="d">
+            In publishing and graphic design, Lorem ipsum is a placeholder<br> text commonly used to demonstrate the visual form of a document or<br> a typeface without relying on meaningful content. Lorem ipsum may be<br> used as a placeholder before the final copy is available
+            In publishing and graphic design, Lorem ipsum is a placeholder<br> text commonly used to demonstrate the visual form of a document or<br> a typeface without relying on meaningful content. Lorem ipsum may be<br> used as a placeholder before the final copy is available
+            In publishing and graphic design, Lorem ipsum is a placeholder<br></b> text commonly used to demonstrate the visual form of a document or<br> a typeface without relying on meaningful content. Lorem ipsum may<br> be used as a placeholder before the final copy is available
+
+              
+           </div>
+
+           <div class"table">
+                    <table border="0">
+                          <thead>
+                         <th>id</th>
+                         <th>name</th>
+                         <th>adress</th>
+                         <th>id</th>
+                         <th>name</th>
+                         <th>adress</th>
+                        </thead>
+                          <tbody>
+                               <td>In publishing and graphic design</td>
+                               <td>ali</td>
+                               <td></td>
+
+                               <td></td>
+                               <td>ali</td>
+                               <td>In publishing and graphic design</td>
+                              
+
+                          </tbody>
+
+                    </table>
+                         
+
+           </div>
+    
+</body>
+</html>
